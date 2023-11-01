@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <canvas id="canvas" width="1200" height="900" style="border: solid;"></canvas>
+    <br>
+    Коэффициент жётскости k (один шаг - одна единица)<input type="range" min="0" max="10" step="1" id="k" value="1">
+    <br>
+    Радиус рогатки <input type="range" min="20" max="300" step="1" id="k" value="100" id="rad" onchange="changeRad(this.value)">
+    <button onClick="die()" >Убрать все камни</button>
+    <script src="index.js"></script>
+</body>
+</html>
